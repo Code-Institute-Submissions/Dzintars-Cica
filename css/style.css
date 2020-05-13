@@ -31,3 +31,9 @@ body {
     border-radius: .3rem;
     background: transparent!important;
 }
+
+.booking-form {
+    max-width: 500px;
+    margin-left: 300px;
+    
+}
