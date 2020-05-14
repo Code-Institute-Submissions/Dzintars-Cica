@@ -37,3 +37,87 @@ body {
     margin-left: 300px;
     
 }
+.ticket-button {
+margin-left:400px;
+}
+.ticket-button a{
+color:white;
+}
+.ticket-button a:hover {
+    color:white;
+}
+.my-songs
+{
+    background-color: darkturquoise;
+    border:solid 1px black;
+}
+.gipsy-boys
+{
+    background-color: darkturquoise;
+    border:solid 1px black;
+}
+.my-video
+{
+    background-color: darkturquoise ;
+    border:solid 1px black;
+}
+footer{
+    background-color:darkred;
+    color: white;
+    margin-top:3rem;
+}
+.main-footer{
+    text-align: center;
+}
+.copy-footer{
+    text-align: start;
+}
+.navbar {
+    background-color:darkred;
+}
+.navbar a {
+    color: white;
+}
+.nav-link:hover{
+    color:white;
+}
+a.dropdown-item{
+    color:black;
+}
+.btn .btn-sm{
+    background-color: blue;
+}
+h1.display-4
+{
+    color:darkred;
+    font-size: 60px;
+}
+p.lead{
+    color:darkred;
+    font-size: 40px;
+}
+.music1 p 
+{
+    text-align:center;
+    align-items: center
+}
+.calendar1 p
+{
+    text-align:center;
+}
+a.btn{
+   margin-left:300px;
+}
+hr{
+    background-color:darkred;
+    inline-size: 100px;
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+    border-width: 5px!important;
+}
+.booking-container{
+    background-color: darkred!important;
+}
+.music-container{
+    background-color: darksalmon!important;
+}
