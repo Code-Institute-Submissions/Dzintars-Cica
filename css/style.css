@@ -48,30 +48,43 @@ color:white;
 }
 .my-songs
 {
-    background-color: darkturquoise;
+    background-color: lightgray;
     border:solid 1px black;
 }
 .gipsy-boys
 {
-    background-color: darkturquoise;
+    background-color: lightgray;
     border:solid 1px black;
 }
 .my-video
 {
-    background-color: darkturquoise ;
+    background-color: lightgray;
     border:solid 1px black;
 }
 footer{
     background-color:darkred;
     color: white;
-    margin-top:3rem;
+    
 }
 .main-footer{
     text-align: center;
 }
-.copy-footer{
-    text-align: start;
+.contact-footer{
+    text-align:center;
+    margin-top:10px;
 }
+.footer-links{
+ margin-top:75px; 
+ text-align: right;
+}
+
+.text-left{
+    margin-top:80px;
+    margin-left:20px;
+}
+
+
+
 .navbar {
     background-color:darkred;
 }
@@ -99,14 +112,19 @@ p.lead{
 .music1 p 
 {
     text-align:center;
-    align-items: center
+    padding-top:0px;  
+    
 }
 .calendar1 p
 {
     text-align:center;
+    padding-top:0px;  
+    
 }
 a.btn{
-   margin-left:300px;
+   margin-left:270px;
+   background-color: darkred!important;
+   margin-top:20px;
 }
 hr{
     background-color:darkred;
@@ -116,8 +134,37 @@ hr{
     border-width: 5px!important;
 }
 .booking-container{
-    background-color: darkred!important;
+    background-color:lightgray!important;
 }
 .music-container{
-    background-color: darksalmon!important;
+    background-color: lightgrey!important;
+}
+.index-video{
+    margin-left:100px;
+    padding-top:50px;  
+    padding-bottom: 50px;
+}
+.calendar1 i{
+    padding-top:50px;  
+    padding-bottom: 20px;
+    color:darkred;
+}
+.music1 i {
+    padding-top:50px;  
+    padding-bottom: 20px;
+    color:darkred;
+}
+.row a{
+    color:white!important;
+}
+.falow{
+    display: inline;
+    margin-right: 10px;
+}
+.row a {
+    color: white!important;
+    padding-right: 5px;
+}
+.footer-1{
+    padding-right: 15px;
 }
