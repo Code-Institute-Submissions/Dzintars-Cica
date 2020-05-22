@@ -3,17 +3,19 @@ body {
 }
 
 
-.callout-container {
-    height: 100vh;
-
-  background: URL("../images/main.jpg") no-repeat, bottom, right, fixed; 
+.callout-container 
+{
+  height: 100vh;  
+  background: URL("../images/main.jpg") 
+  no-repeat, bottom, right, fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-   
 }
+ /*--------------------------------------------------------HEADER */
+   
+
 .jumbo-container{
     background: transparent;
 }
@@ -211,4 +213,17 @@ hr{
 
 .history-items {
     margin-bottom: 30px;
+}
+.about-me
+{
+    text-align: justify;
+}
+.about-me p
+{
+margin-left:350px;
+max-width: 50%;
+}
+.about-button
+{
+    margin-left:600px;
 }
