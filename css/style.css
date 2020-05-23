@@ -2,7 +2,7 @@ body {
  
 }
 
-
+ /* Credit for code snipet */
 .callout-container 
 {
   height: 100vh;  
@@ -14,8 +14,12 @@ body {
   background-size: cover;
 }
  /*--------------------------------------------------------HEADER */
-   
+ 
+/*--------------------------------------------------------HEADER */
 
+/*--------------------------------------------------------HEADER */
+
+/*--------------------------------------------------------HEADER */
 .jumbo-container{
     background: transparent;
 }
@@ -141,11 +145,7 @@ hr{
 .music-container{
     background-color: lightgrey!important;
 }
-.index-video{
-    margin-left:100px;
-    padding-top:50px;  
-    padding-bottom: 50px;
-}
+
 .calendar1 i{
     padding-top:50px;  
     padding-bottom: 20px;
@@ -223,7 +223,20 @@ hr{
 margin-left:350px;
 max-width: 50%;
 }
-.about-button
+.my-button
 {
-    margin-left:600px;
+    margin-left:650px!important;
+}
+
+.index-video
+{
+   margin-left: 440px;
+    padding-top:50px;  
+    padding-bottom: 50px;
+}
+
+.other-button
+{
+    margin-right: 700px;
+    margin-left:210px!important;
 }
