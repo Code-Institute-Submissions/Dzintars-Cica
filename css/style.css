@@ -1,36 +1,149 @@
-body {
- 
+hr
+{
+    background-color:darkred;
+    inline-size: 100px;
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+    border-width: 5px!important;
 }
 
- /* Credit for code snipet */
+h3
+{
+color: darkred;
+margin-top: 3rem!important;
+margin-bottom: 3rem!important;
+font-size: 30px!important;
+font-family: 'Oswald', sans-serif;
+}
+
+/*--------------------------------------------------------header */
+ 
+ .ticket-button
+{
+margin-left:400px;
+
+}
+
+.ticket-button a
+{
+color:white;
+font-family: 'Oswald', sans-serif;
+font-size:20px;
+}
+
+.ticket-button a:hover
+{
+    color:white;
+}
+
+.navbar
+{
+    background-color:darkred;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+}
+
+.navbar a
+{
+    color: white;
+}
+
+.nav-link:hover
+{
+    color:white;
+}
+
+a.dropdown-item
+{
+    color:black;
+}
+
+.btn .btn-sm
+{
+    background-color: blue;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+/*--------------------------------------------------------footer */
+footer
+{
+     background-color:darkred;
+     color: white;
+     font-family: 'Oswald', sans-serif;
+}
+
+.main-footer
+{
+    text-align: center;
+}
+
+.contact-footer
+{
+    text-align:center;
+    margin-top:60px;
+}
+
+.footer-links
+{
+    margin-top:75px; 
+    text-align: right;
+}
+
+.text-left
+{
+    margin-top:80px;
+    margin-left:20px;
+}
+
+.row a
+{
+    color:white!important;
+}
+
+.falow
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+.row a 
+{
+    color: white!important;
+    padding-right: 5px;
+}
+
+.footer-1
+{
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------------index.html */
+
+/* Credit for code snipet for perfect bacground 
+https://css-tricks.com/perfect-full-page-background-image/ */
+
 .callout-container 
 {
-  height: 100vh;  
-  background: URL("../images/main.jpg") 
-  no-repeat, bottom, right, fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 100vh;  
+    background: URL("../images/main.jpg") 
+    no-repeat, bottom, right, fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
- /*--------------------------------------------------------HEADER */
- 
-/*--------------------------------------------------------HEADER */
+/* Credit for code snipet for perfect bacground 
+https://css-tricks.com/perfect-full-page-background-image/ */
 
-/*--------------------------------------------------------HEADER */
-
-/*--------------------------------------------------------HEADER */
-.jumbo-container{
+.jumbo-container
+{
     background: transparent;
 }
 
-.persu {
-   
-    right: 0px!important;
-    left: 0px!important;
-}
-
-.jumbotron {
+.jumbotron
+{
     padding: 2rem 1rem;
     margin-bottom: 2rem;
     background-color: #e9ecef;
@@ -38,191 +151,55 @@ body {
     background: transparent!important;
 }
 
-.booking-form {
-    max-width: 500px;
-    margin-left: 300px;
-    
-}
-.ticket-button {
-margin-left:400px;
-}
-.ticket-button a{
-color:white;
-}
-.ticket-button a:hover {
-    color:white;
-}
-.my-songs
-{
-    background-color: lightgray;
-    border:solid 1px black;
-}
-.gipsy-boys
-{
-    background-color: lightgray;
-    border:solid 1px black;
-}
-.my-video
-{
-    background-color: lightgray;
-    border:solid 1px black;
-}
-footer{
-    background-color:darkred;
-    color: white;
-    
-}
-.main-footer{
-    text-align: center;
-}
-.contact-footer{
-    text-align:center;
-    margin-top:10px;
-}
-.footer-links{
- margin-top:75px; 
- text-align: right;
-}
-
-.text-left{
-    margin-top:80px;
-    margin-left:20px;
-}
-
-
-
-.navbar {
-    background-color:darkred;
-}
-.navbar a {
-    color: white;
-}
-.nav-link:hover{
-    color:white;
-}
-a.dropdown-item{
-    color:black;
-}
-.btn .btn-sm{
-    background-color: blue;
-}
-h1.display-4
-{
-    color:darkred;
-    font-size: 60px;
-}
-p.lead{
-    color:darkred;
-    font-size: 40px;
-}
-.music1 p 
-{
-    text-align:center;
-    padding-top:0px;  
-    
-}
-.calendar1 p
-{
-    text-align:center;
-    padding-top:0px;  
-    
-}
 a.btn{
    margin-left:270px;
    background-color: darkred!important;
    margin-top:20px;
 }
-hr{
-    background-color:darkred;
-    inline-size: 100px;
-    margin-top: 3rem!important;
-    margin-bottom: 3rem!important;
-    border-width: 5px!important;
+
+h1.display-4
+{
+    color:darkred;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    
 }
-.booking-container{
+
+p.lead
+{
+    color:darkred;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.index-p
+{
+    font-family: 'Cinzel', serif;
+    font-size:18px;
+}
+
+.booking-container
+{
     background-color:lightgray!important;
+    margin-bottom: 3rem;
 }
-.music-container{
+
+.music-container
+{
     background-color: lightgrey!important;
 }
 
-.calendar1 i{
-    padding-top:50px;  
-    padding-bottom: 20px;
-    color:darkred;
-}
-.music1 i {
-    padding-top:50px;  
-    padding-bottom: 20px;
-    color:darkred;
-}
-.row a{
-    color:white!important;
-}
-.falow{
-    display: inline;
-    margin-right: 10px;
-}
-.row a {
-    color: white!important;
-    padding-right: 5px;
-}
-.footer-1{
-    padding-right: 15px;
-}
-
-/*skolas kods*/
-
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: darkred;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background:darkred;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
 .about-me
 {
     text-align: justify;
 }
+
 .about-me p
 {
-margin-left:350px;
-max-width: 50%;
+    margin-left:350px;
+    max-width: 50%;
 }
+
 .my-button
 {
     margin-left:650px!important;
@@ -239,4 +216,157 @@ max-width: 50%;
 {
     margin-right: 700px;
     margin-left:210px!important;
+    background-color: darkred!important;
 }
+
+a.btn{
+   margin-left:270px;
+   background-color: darkred!important;
+   margin-top:20px;
+}
+
+/*--------------------------------------------------------about-me.html */
+
+.about-row
+{
+    margin-bottom:3rem;
+    background-color: lightgray;
+    padding: 30px 30px;
+}
+
+.first-row
+{
+    background-color: lightgray;
+    padding: 30px 30px;
+}
+
+.persu
+{
+    right: 0px!important;
+    left: 0px!important;
+}
+
+p.about
+{
+    max-width: 50%;
+    text-align: justify;
+    margin-left:200px;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+/*--------------------------------------------------------book-me.html */
+
+.booking-form 
+{
+    max-width: 500px;
+    margin-left: 300px;
+}
+
+h3.booking-h3
+{
+color: darkred;
+margin-top: 3rem!important;
+margin-bottom: 0.5rem!important;
+font-size: 30px!important;
+}
+
+.booking-p
+{
+    margin-bottom: 3rem;
+}
+
+.submit-button
+{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-left: 11rem!important;
+}
+
+.book-form
+{
+    background-color: lightgray;
+    padding: 30px 30px;
+    margin-bottom: 3rem;
+}
+/*--------------------------------------------------------my-music.html */
+
+.my-songs
+{
+    background-color: lightgray;
+    border:solid 1px black;
+}
+
+.gipsy-boys
+{
+    background-color: lightgray;
+    border:solid 1px black;
+}
+
+.my-video
+{
+    background-color: lightgray;
+    border:solid 1px black;
+}
+/*--------------------------------------------------------uk-tour.html */
+
+/* Credit for code to Code Institute*/
+
+
+.timeline-item
+{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: darkred;
+    border-left: 1px solid;
+}
+
+.timeline-item p
+{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before
+{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after
+{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background:darkred;
+}
+
+/* Credit for code to Code Institute*/
+
+
+
+.tour-video
+{
+    margin-left:3rem;
+}
+
+.tour-button
+{
+    background-color: darkred!important;
+    margin-left:610px!important;
+}
+
+
+/*finish*/

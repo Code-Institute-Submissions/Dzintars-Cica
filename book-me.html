@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Dzintars Cica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,130 +13,212 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">Dzintars Cica</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+        <a class="navbar-brand" href="index.html">Dzintars Cica
+        </a>
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+             aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
         </button>
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about-me.html">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="book-me.html">Bookings</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Music
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="uk-tour.html">UK Tour</a>
-                                <a class="dropdown-item" href="my-music.html">Listen My Music</a>
-                                </div>
-                            </li>
-                        </ul>
-                            <div class="ticket-button">
-                            <form class="nav-item">
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home 
+                        <span class="sr-only">(current)
+                        </span>
+                    </a>
+                </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="about-me.html">About Me
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="book-me.html">Bookings
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" 
+                        id="navbarDropdownMenuLink" role="button" 
+                        data-toggle="dropdown" aria-haspopup="true" 
+                        aria-expanded="false"> Music
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="uk-tour.html">UK Tour
+                        </a>
+
+
+                        <a class="dropdown-item" href="my-music.html">Listen My Music
+                        </a>
+                    </div>
+                </li>
+            </ul>
+                    <div class="ticket-button">
+                        <form class="nav-item">
                             <button class="btn btn-sm ticket-button" type="button">
-                            <a class="nav-link" href="https://www.ticketmaster.co.uk/ " target="_blank"><strong>Buy Tickets</strong></a></button>
-                            </form>
-                            </div>
-            </div>
+                                <a class="nav-link" href="https://www.ticketmaster.co.uk/ "
+                                    target="_blank">
+                                    <strong>Buy Tickets
+                                    </strong>
+                                </a>
+                            </button>
+                        </form>
+                    </div>
+        </div>
     </nav>
 </header>
 
+<section>
+    <h3 class="text-center booking-h3">Book Me
+    </h3>
+        <p class="text-center booking-p">Available to sing in your wedding, 
+            birthday parties or any other your upcoming gig. 
+            You can book me by filling out form.
+        </p>
 
-<h1 class="text-center">Book Me</h1>
-<h6 class="text-center">Available to sing in your wedding, birthday parties or any other your upcoming gig. You can book me by filling out form.
+    <div class="container">
+        <form class="booking-form book-form">
+            <div class="form-group">
+                <label>Name
+                </label>
+                <input type="text" class="form-control" 
+                placeholder="Name Surname">
+            </div>
 
-</h6>
+            <div class="form-group">
+                <label>Email
+                </label>
+                <input type="email" class="form-control" 
+                placeholder="Email">
+            </div>
 
-<div class="container">
-      <form class="booking-form">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name Surname">
-        </div>
+            <div class="form-group">
+                <label>Contact number
+                </label>
+                <input type="text" class="form-control" 
+                placeholder="Contact number">
+            </div>
 
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" class="form-control" placeholder="Email">
-        </div>
+            <div class="form-group">
+                <label>How many people will attend gig?
+                </label>
+                    <select class="form-control">
+                        <option value="1-10">1-10
+                        </option>
 
-        <div class="form-group">
-          <label>Contact number</label>
-          <input type="text" class="form-control" placeholder="Contact number">
-        </div>
+                        <option value="10-30">10-30
+                        </option>
 
-        <div class="form-group">
-          <label>How many people will attend gig?</label>
-          <select class="form-control">
-            <option value="1-10">1-10</option>
-            <option value="10-30">10-30</option>
-            <option value="30-50">30-50</option>
-            <option value="50+">50+</option>
-          </select>
-        </div>
+                        <option value="30-50">30-50
+                        </option>
 
-        <div class="form-group">
-        <label>When you planing your gig?</label>
-        <input type="date" class="form-control">
-        
-</div>
+                        <option value="50+">50+
+                        </option>
+                    </select>
+            </div>
 
-        <div class="form-group">
-          <label>More info</label>
-          <textarea class="form-control" placeholder="More info about gig"></textarea>
-        </div>
+            <div class="form-group">
+                <label>When you planing your gig?
+                </label>
+                <input type="date" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>More info
+                </label>
+                <textarea class="form-control" 
+                    placeholder="More info about gig">
+                </textarea>
+            </div>
 
 
-        <div class="custom-control custom-radio">
-  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadio1">I prefer to be contacted by email</label>
-</div>
-<div class="custom-control custom-radio">
-  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadio2">I prefer to be contacted by contact number</label>
-</div>
-<div class="custom-control custom-radio">
-  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadio3">Both</label>
-</div>
-<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModal">
-  Submit
-</button>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" 
+                    name="customRadio" class="custom-control-input">
+
+                <label class="custom-control-label" for="customRadio1">
+                    I prefer to be contacted by email
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" 
+                    name="customRadio" class="custom-control-input">
+
+                <label class="custom-control-label" for="customRadio2">
+                    I prefer to be contacted by contact number
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" 
+                name="customRadio" class="custom-control-input">
+
+                <label class="custom-control-label" 
+                    for="customRadio3">Both
+                </label>
+            </div>
+
+            <button type="button" class="btn btn-info btn-lg other-button submit-button" 
+                data-toggle="modal" data-target="#exampleModal">Submit
+            </button>
 
 
         </form>
-</div>
-
-
+    </div>
+</section>
 
 <footer>
-<div class="main-footer">
-<div class="row footer-1">
-<div class="col-4">
-<p class="text-left"><small>&copy copyright 2020 Dzintars Cica</small></p>
-</div>
+    <div class="main-footer">
+        <div class="row footer-1">
+            <div class="col-4">
+                <p class="text-left">
+                    <small>&copy copyright 2020 Dzintars Cica
+                    </small>
+                </p>
+            </div>
 
-<div class="col-4">
-<p class="contact-footer">Contact Me<br>Dzintars Cica<br>dzintarscica33@inbox.lv<br>mob: 07577751549</p>
-</div>
+            <div class="col-4">
+                <p class="contact-footer">
+                    <strong>Contact Me:<br>
+                    </strong>
 
-<div class="col-4 footer-links">
-<p class="falow">Fallow Me</p>
-<a target="_blank" href="https://www.instagram.com/"> <i class="fa fa-instagram fa-2x" ></i></a>
-<a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
-<a target="_blank" href="https://www.youtube.com/results?search_query=dzintars+%C4%8D%C4%AB%C4%8Da+"> <i class="fa fa-youtube fa-2x"></i></a>
-</div>
+                     <small> dzintarscica33@inbox.lv mob: 07577751549
+                     </small>
+                </p>
+            </div>
 
-</div>
-</div>
+            <div class="col-4 footer-links">
+                <p class="falow">
+                    <strong>Fallow Me
+                    </strong>
+                </p>
 
+                <a target="_blank" href="https://www.instagram.com/">
+                     <i class="fa fa-instagram fa-2x" >
+                     </i>
+                </a>
 
+                <a target="_blank" href="http://www.facebook.com/">
+                    <i class="fa fa-facebook-square fa-2x">
+                    </i>
+                </a>
+
+                <a target="_blank" href="https://www.youtube.com/results?search_query=dzintars+%C4%8D%C4%AB%C4%8Da+"> 
+                    <i class="fa fa-youtube fa-2x">
+                    </i>
+                </a>
+            </div>
+        </div>
+    </div>
 </footer>
 
 
@@ -152,13 +235,13 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Thank You!</h5>
+        <h5 class="modal-title" id="exampleModalLabel">THANK YOU!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        I recieved your request, will answer you within 3 working days.
+        Thank you for your request, I will answer you within 3 working days.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-info btn-sm " data-dismiss="modal">Close</button>
@@ -174,10 +257,26 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+    crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous">
+</script>
 
 </body>
+
 </html>
