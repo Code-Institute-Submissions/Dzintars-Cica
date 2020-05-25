@@ -314,6 +314,38 @@ font-size: 30px!important;
     background-color: lightgray;
     border:solid 1px black;
 }
+
+.music-p
+{
+    margin-left:350px;
+    max-width: 50%;
+    font-family: 'Josefin Slab', serif;
+    font-size:20px;
+
+}
+
+.solo-songs
+{
+    color:darkred;
+    font-family: 'Oswald', sans-serif;
+    margin-left:2rem; 
+}
+
+.euro-song
+{
+    margin-left:340px;
+}
+
+.song
+{
+    margin-left:2rem;
+}
+
+.last-p
+{
+    color:darkred;
+    font-family: 'Oswald', sans-serif;
+}
 /*---------------------------------------------------------------------uk-tour.html */
 
 /* Credit for code to Code Institute learning video
@@ -391,6 +423,7 @@ about how to make portfolio*/
 {
     font-family: 'Josefin Slab', serif;
     font-size:20px;
+    
 }
 
 
