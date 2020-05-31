@@ -140,6 +140,7 @@ https://css-tricks.com/perfect-full-page-background-image/ */
 .jumbo-container
 {
     background: transparent;
+    
 }
 
 .jumbotron
@@ -149,6 +150,7 @@ https://css-tricks.com/perfect-full-page-background-image/ */
     background-color: #e9ecef;
     border-radius: .3rem;
     background: transparent!important;
+
 }
 
 a.btn{
@@ -223,6 +225,66 @@ a.btn{
    margin-left:270px;
    background-color: darkred!important;
    margin-top:20px;
+}
+
+@media all and (max-width:1024px)
+{
+  
+}
+
+@media all and (max-width:768px)
+{
+   
+}
+
+@media all and (max-width:667px)
+{
+
+}
+
+
+@media all and (max-width:575px)
+{
+   
+}
+
+
+@media all and (max-width:414px)
+{
+   
+}
+
+@media all and (max-width:375px)
+{
+    
+}
+
+
+@media all and (max-width:320px)
+{
+    .callout-container
+    {
+        background: lightgray;
+    }
+
+    a.btn
+    {
+        margin-left:50px!important;
+    }
+
+    .index-p
+    {
+        font-size:15px;
+        margin-left:10px!important;
+        margin-right:10px!important;
+        max-width: 100%!important;
+        
+    }
+    
+    a.my-button
+    {
+        margin-left:90px!important;
+    }
 }
 
 /*---------------------------------------------------------------------about-me.html */
@@ -681,6 +743,44 @@ font-size: 30px!important;
     color:darkred;
     font-family: 'Oswald', sans-serif;
 }
+
+@media all and (max-width:1024px)
+{
+  
+}
+
+@media all and (max-width:768px)
+{
+   
+}
+
+@media all and (max-width:667px)
+{
+
+}
+
+
+@media all and (max-width:575px)
+{
+   
+}
+
+
+@media all and (max-width:414px)
+{
+   
+}
+
+@media all and (max-width:375px)
+{
+    
+}
+
+
+@media all and (max-width:320px)
+{
+    .
+}
 /*---------------------------------------------------------------------uk-tour.html */
 
 /* Credit for code to Code Institute learning video
@@ -761,5 +861,42 @@ about how to make portfolio*/
     
 }
 
+@media all and (max-width:1024px)
+{
+  
+}
+
+@media all and (max-width:768px)
+{
+   
+}
+
+@media all and (max-width:667px)
+{
+
+}
+
+
+@media all and (max-width:575px)
+{
+   
+}
+
+
+@media all and (max-width:414px)
+{
+   
+}
+
+@media all and (max-width:375px)
+{
+    
+}
+
+
+@media all and (max-width:320px)
+{
+    .
+}
 
 /*finish*/
