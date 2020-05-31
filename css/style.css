@@ -256,7 +256,7 @@ p.about
     
 }
 
-@media all and (max-width:375px)
+@media all and (max-width:575px)
 {
     p.about
     {
@@ -271,7 +271,27 @@ p.about
 
     .about-pic
     {
-        max-width: 270px;
+        max-width: 340px;
+    }
+}
+
+@media all and (max-width:768px)
+{
+    p.about
+    {
+        font-size:20px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 560px;
+        margin-left: 50px;
     }
 }
 
@@ -293,6 +313,26 @@ p.about
         max-width: 340px;
     }
 }
+
+@media all and (max-width:375px)
+{
+    p.about
+    {
+        font-size:15px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 270px;
+    }
+}
+
 /*---------------------------------------------------------------------book-me.html */
 
 .booking-form 
