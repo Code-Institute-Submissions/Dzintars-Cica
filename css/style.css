@@ -216,7 +216,7 @@ p.lead
 
 .other-button
 {
-    margin-right: 700px;
+    margin-right: 660px;
     margin-left:210px!important;
     background-color: darkred!important;
 }
@@ -229,34 +229,255 @@ a.btn{
 
 @media all and (max-width:1024px)
 {
-  
+  .callout-container
+    {
+        height: 70vh; 
+    }
+
+    h1.display-4
+{
+    color:darkred;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+p.lead
+{
+    color:darkred;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+    a.btn
+    {
+        margin-left:50px!important;
+    }
+
+    .index-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        margin-right:10px!important;
+        max-width: 100%!important;
+        
+    }
+    
+    a.my-button
+    {
+        margin-left:440px!important;
+    }
+    
+    .index-video
+    {
+        margin-left:220px!important;
+    }
+
+    iframe
+    {
+        max-width: 700px;
+    }
+
+    a.other-button
+    {
+        margin-left:240px!important;
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 
 @media all and (max-width:768px)
 {
-   
+   .callout-container
+    {
+        height: 50vh; 
+    }
+
+    h1.display-4
+{
+    color:darkred;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+p.lead
+{
+    color:darkred;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+    a.btn
+    {
+        margin-left:50px!important;
+    }
+
+    .index-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        margin-right:10px!important;
+        max-width: 100%!important;
+        
+    }
+    
+    a.my-button
+    {
+        margin-left:310px!important;
+    }
+    
+    .index-video
+    {
+        margin-left:90px!important;
+    }
+
+    iframe
+    {
+        max-width: 560px;
+    }
+
+    a.other-button
+    {
+        margin-left:240px!important;
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 
 @media all and (max-width:667px)
 {
+    .callout-container
+    {
+        background: lightgray;
+    }
 
+    a.btn
+    {
+        margin-left:50px!important;
+    }
+
+    .index-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        margin-right:10px!important;
+        max-width: 100%!important;
+        
+    }
+    
+    a.my-button
+    {
+        margin-left:265px!important;
+    }
+    
+    .index-video
+    {
+        margin-left:40px!important;
+    }
+
+    iframe
+    {
+        max-width: 560px;
+    }
+
+    a.other-button
+    {
+        margin-left:240px!important;
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 
-
-@media all and (max-width:575px)
-{
-   
-}
 
 
 @media all and (max-width:414px)
 {
-   
+   .callout-container
+    {
+        background: lightgray;
+    }
+
+    a.btn
+    {
+        margin-left:50px!important;
+    }
+
+    .index-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        margin-right:10px!important;
+        max-width: 100%!important;
+        
+    }
+    
+    a.my-button
+    {
+        margin-left:137px!important;
+    }
+    
+    .index-video
+    {
+        margin-left:0px!important;
+    }
+
+    iframe
+    {
+        max-width: 380px;
+    }
+
+    a.other-button
+    {
+        margin-left:155px!important;
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
 
 @media all and (max-width:375px)
 {
+    .callout-container
+    {
+        background: lightgray;
+    }
+
+    a.btn
+    {
+        margin-left:50px!important;
+    }
+
+    .index-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        margin-right:10px!important;
+        max-width: 100%!important;
+        
+    }
     
+    a.my-button
+    {
+        margin-left:120px!important;
+    }
+    
+    .index-video
+    {
+        margin-left:0px!important;
+    }
+
+    iframe
+    {
+        max-width: 350px;
+    }
+
+    a.other-button
+    {
+        margin-left:135px!important;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
 }
 
 
@@ -285,6 +506,25 @@ a.btn{
     {
         margin-left:90px!important;
     }
+    
+    .index-video
+    {
+        margin-left:0px!important;
+    }
+
+    iframe
+    {
+        max-width: 290px;
+    }
+
+    a.other-button
+    {
+        margin-left:110px!important;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+
 }
 
 /*---------------------------------------------------------------------about-me.html */
