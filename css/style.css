@@ -256,25 +256,6 @@ p.about
     
 }
 
-@media all and (max-width:575px)
-{
-    p.about
-    {
-        font-size:20px;
-        margin-left:10px;
-        max-width: 100%;
-    }
-    .about-pic
-    {
-        overflow: hidden;
-    }
-
-    .about-pic
-    {
-        max-width: 340px;
-    }
-}
-
 @media all and (max-width:768px)
 {
     p.about
@@ -368,6 +349,59 @@ font-size: 30px!important;
     background-color: lightgray;
     padding: 30px 30px;
     margin-bottom: 3rem;
+}
+
+@media all and (max-width:768px)
+{
+    .booking-form 
+    {
+        max-width: 70%;
+        margin-left: 100px;
+    }
+    .submit-button
+    {
+        margin-left: 10rem!important;
+    }
+    #exampleModal
+    {
+        max-width: 50%;
+    }
+}
+
+
+@media all and (max-width:575px)
+{
+    .booking-form 
+    {
+        max-width: 85%;
+        margin-left: 30px;
+    }
+    .submit-button
+    {
+        margin-left: 5rem!important;
+    }
+    #exampleModal
+    {
+        max-width: 45%;
+    }
+}
+
+@media all and (max-width:375px)
+{
+    .booking-form 
+    {
+        max-width: 80%;
+        margin-left: 30px;
+    }
+    .submit-button
+    {
+        margin-left: 4rem!important;
+    }
+    #exampleModal
+    {
+        max-width: 40%;
+    }
+    
 }
 /*---------------------------------------------------------------------my-music.html */
 

@@ -11,7 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
+
 <header>
     <nav class="navbar navbar-expand-lg">
 
@@ -78,102 +80,117 @@
 </header>
 
 <section>
-    <h3 class="text-center booking-h3">Book Me
-    </h3>
-        <p class="text-center booking-p">Available to sing in your wedding, 
-            birthday parties or any other your upcoming gig. 
-            You can book me by filling out form.
-        </p>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center booking-h3">Book Me
+                 </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p class="text-center booking-p">Available to sing in your          wedding, birthday parties or any other your upcoming gig. 
+                    You can book me by filling out form.
+                </p>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
-        <form class="booking-form book-form">
-            <div class="form-group">
-                <label>Name
-                </label>
-                <input type="text" class="form-control" 
-                placeholder="Name Surname">
+        <div class="row">
+            <div class="col">
+                <form class="booking-form book-form">
+                    <div class="form-group">
+                        <label>Name
+                        </label>
+
+                        <input type="text" class="form-control" 
+                            placeholder="Name Surname">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email
+                        </label>
+                        <input type="email" class="form-control" 
+                        placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Contact number
+                        </label>
+                        <input type="text" class="form-control" 
+                        placeholder="Contact number">
+                    </div>
+
+                    <div class="form-group">
+                        <label>How many people will attend gig?
+                        </label>
+                        <select class="form-control">
+                            <option value="1-10">1-10
+                            </option>
+
+                            <option value="10-30">10-30
+                            </option>
+
+                            <option value="30-50">30-50
+                            </option>
+
+                            <option value="50+">50+
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>When you planing your gig?
+                        </label>
+                        <input type="date" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>More info
+                        </label>
+                        <textarea class="form-control" 
+                            placeholder="More info about gig">
+                        </textarea>
+                    </div>
+
+
+                    <div class="custom-control custom-radio">
+                         <input type="radio" id="customRadio1" 
+                             name="customRadio" class="custom-control-input">
+
+                        <label class="custom-control-label"                         for="customRadio1">
+                            I prefer to be contacted by email
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" 
+                            name="customRadio" class="custom-control-input">
+
+                        <label class="custom-control-label" for="customRadio2">
+                            I prefer to be contacted by contact number
+                        </label>
+                    </div>
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio3" 
+                            name="customRadio" class="custom-control-input">
+
+                        <label class="custom-control-label" 
+                            for="customRadio3">Both
+                        </label>
+                    </div>
+
+                    <button type="button" class="btn btn-info btn-lg                other-button submit-button" data-toggle="modal"             data-target="#exampleModal">Submit
+                    </button>
+                </form>
             </div>
-
-            <div class="form-group">
-                <label>Email
-                </label>
-                <input type="email" class="form-control" 
-                placeholder="Email">
-            </div>
-
-            <div class="form-group">
-                <label>Contact number
-                </label>
-                <input type="text" class="form-control" 
-                placeholder="Contact number">
-            </div>
-
-            <div class="form-group">
-                <label>How many people will attend gig?
-                </label>
-                    <select class="form-control">
-                        <option value="1-10">1-10
-                        </option>
-
-                        <option value="10-30">10-30
-                        </option>
-
-                        <option value="30-50">30-50
-                        </option>
-
-                        <option value="50+">50+
-                        </option>
-                    </select>
-            </div>
-
-            <div class="form-group">
-                <label>When you planing your gig?
-                </label>
-                <input type="date" class="form-control">
-            </div>
-
-            <div class="form-group">
-                <label>More info
-                </label>
-                <textarea class="form-control" 
-                    placeholder="More info about gig">
-                </textarea>
-            </div>
-
-
-            <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio1" 
-                    name="customRadio" class="custom-control-input">
-
-                <label class="custom-control-label" for="customRadio1">
-                    I prefer to be contacted by email
-                </label>
-            </div>
-
-            <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio2" 
-                    name="customRadio" class="custom-control-input">
-
-                <label class="custom-control-label" for="customRadio2">
-                    I prefer to be contacted by contact number
-                </label>
-            </div>
-
-            <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio3" 
-                name="customRadio" class="custom-control-input">
-
-                <label class="custom-control-label" 
-                    for="customRadio3">Both
-                </label>
-            </div>
-
-            <button type="button" class="btn btn-info btn-lg other-button submit-button" 
-                data-toggle="modal" data-target="#exampleModal">Submit
-            </button>
-
-
-        </form>
+        </div>
     </div>
 </section>
 
