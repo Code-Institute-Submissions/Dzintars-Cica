@@ -253,6 +253,21 @@ p.about
     margin-left:200px;
     font-family: 'Josefin Slab', serif;
     font-size: 20px;
+    
+}
+
+@media all and (max-width:500px)
+{
+    p.about
+    {
+        font-size:20px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
 }
 /*---------------------------------------------------------------------book-me.html */
 
