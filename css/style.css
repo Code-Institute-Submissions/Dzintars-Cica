@@ -256,6 +256,36 @@ p.about
     
 }
 
+
+
+  
+
+
+@media all and (max-width:1024px)
+{
+    p.about
+    {
+        font-size:20px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 560px;
+        margin-left: 200px!important;
+    }
+    .copy
+    {
+        margin-left: 200px!important;
+    }
+    
+}
+
 @media all and (max-width:768px)
 {
     p.about
@@ -274,7 +304,60 @@ p.about
         max-width: 560px;
         margin-left: 50px;
     }
+    .copy
+    {
+        margin-left: 50px!important;
+    }
 }
+
+@media all and (max-width:736px)
+{
+    p.about
+    {
+        font-size:20px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 560px;
+        margin-left: 30px!important;
+    }
+    .copy
+    {
+        margin-left: 30px!important;
+    }
+}
+
+@media all and (max-width:667px)
+{
+    p.about
+    {
+        font-size:20px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 560px;
+        margin-left: 15px!important;
+    }
+    .copy
+    {
+        margin-left: 15px!important;
+    }
+}
+
 
 @media all and (max-width:575px)
 {
@@ -295,6 +378,31 @@ p.about
     }
 }
 
+
+@media all and (max-width:414px)
+{
+    p.about
+    {
+        font-size:15px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 330px;
+        margin-left:0px!important;
+    }
+    .copy
+    {
+        margin-left: 0px!important;
+    }
+}
+
 @media all and (max-width:375px)
 {
     p.about
@@ -310,7 +418,34 @@ p.about
 
     .about-pic
     {
-        max-width: 270px;
+        max-width: 300px;
+        margin-left:0px!important;
+    }
+    .copy
+    {
+        margin-left: 0px!important;
+    }
+}
+
+
+@media all and (max-width:320px)
+{
+    p.about
+    {
+        font-size:15px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 260px;
+        max-height: 270px;
+        margin-left:0px!important;
     }
 }
 
