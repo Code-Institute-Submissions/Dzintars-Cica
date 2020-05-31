@@ -256,7 +256,7 @@ p.about
     
 }
 
-@media all and (max-width:500px)
+@media all and (max-width:375px)
 {
     p.about
     {
@@ -267,6 +267,30 @@ p.about
     .about-pic
     {
         overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 270px;
+    }
+}
+
+@media all and (max-width:575px)
+{
+    p.about
+    {
+        font-size:20px;
+        margin-left:10px;
+        max-width: 100%;
+    }
+    .about-pic
+    {
+        overflow: hidden;
+    }
+
+    .about-pic
+    {
+        max-width: 340px;
     }
 }
 /*---------------------------------------------------------------------book-me.html */
