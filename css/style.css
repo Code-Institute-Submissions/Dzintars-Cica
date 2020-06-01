@@ -986,40 +986,457 @@ font-size: 30px!important;
 
 @media all and (max-width:1024px)
 {
-  
+  .music-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        max-width: 100%;
+    }
+
+    .solo-songs
+    {
+        margin-left:5px;
+    }
+
+    .my-photo
+    {
+        padding-left:0px!important;
+        margin-bottom: 15px;
+        max-width:300px!important;
+        margin-left:0px;
+
+    }
+
+    .my-photo-2
+    {
+        margin-left:200px!important;
+    }
+
+    .photo
+    {
+        width:500px;
+        height:400px;
+    }
+
+    .song
+    {
+        margin-left:150px;
+        padding-left:0px!important;
+    }
+
+    .songs-1
+    {
+        margin-left:250px;
+        margin-top:210px;
+    }
+
+    .songs-2
+    {
+        margin-left:0px;
+    }
+
+    .songs-3
+    {
+        margin-left:310px;
+        margin-top:15px;
+    }
+
+    .songs-4
+    {
+        margin-left:250px;
+        margin-top: 40px;
+        margin-right:200px;
+        
+    }
+
+    .songs-5
+    {
+        margin-left:250px;
+        
+    }
+    
+    .songs-6
+    {
+        margin-left:250px;
+        
+    }
+
+    .song h6
+    {
+        font-size:14px;
+        margin-left:15px;
+    }
+
+    audio
+    {
+        width:400px;
+    }
+
+    .euro-song
+    {
+        max-width: 600px;
+        max-height: 500px;
+        margin-left: 190px!important;
+    }
+
+    .child-video
+    {
+        padding-left: 0px!important;
+    }
+    
+    .child-p
+    {
+        font-size:20px;
+        margin-left:15px;
+    }
 }
 
 @media all and (max-width:768px)
 {
-   
+   .music-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        max-width: 100%;
+    }
+
+    .solo-songs
+    {
+        margin-left:5px;
+    }
+
+    .my-photo
+    {
+        padding-left:100px!important;
+        margin-bottom: 15px;
+        max-width:300px!important;
+
+    }
+
+    .my-photo-2
+    {
+        margin-left:0px!important;
+    }
+
+    .photo
+    {
+        width:500px;
+        height:400px;
+    }
+
+    .song
+    {
+        margin-left:150px;
+        padding-left:0px!important;
+    }
+
+    .songs-1
+    {
+        margin-left:150px;
+        margin-top:20px;
+    }
+
+    .song h6
+    {
+        font-size:20px;
+        margin-left:15px;
+    }
+
+    audio
+    {
+        width:400px;
+    }
+
+    .euro-song
+    {
+        max-width: 500px;
+        max-height: 400px;
+        margin-left: 100px!important;
+    }
+
+    .child-video
+    {
+        padding-left: 0px!important;
+    }
+    
+    .child-p
+    {
+        font-size:20px;
+        margin-left:15px;
+    }
 }
+
 
 @media all and (max-width:667px)
 {
+    .music-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        max-width: 100%;
+    }
 
+    .solo-songs
+    {
+        margin-left:5px;
+    }
+
+    .my-photo
+    {
+        padding-left:130px!important;
+        margin-bottom: 10px;
+        max-width:300px!important;
+
+    }
+
+    .my-photo-2
+    {
+        margin-left:0px!important;
+    }
+
+    .photo
+    {
+        width:340px;
+    }
+
+    .song
+    {
+        margin-left:120px;
+        padding-left:0px!important;
+    }
+
+    .song h6
+    {
+        font-size:17px;
+        margin-left:15px;
+    }
+
+    audio
+    {
+        width:360px;
+    }
+
+    .euro-song
+    {
+        max-width: 400px;
+        max-height: 320px;
+        margin-left: 100px!important;
+    }
+
+    .child-video
+    {
+        padding-left: 0px!important;
+    }
+    
+    .child-p
+    {
+        font-size:17px;
+        margin-left:15px;
+    }
 }
-
-
-@media all and (max-width:575px)
-{
-   
-}
-
 
 @media all and (max-width:414px)
 {
-   
+   .music-p
+    {
+        font-size:20px;
+        margin-left:10px!important;
+        max-width: 100%;
+    }
+
+    .solo-songs
+    {
+        margin-left:5px;
+    }
+
+    .my-photo
+    {
+        padding-left:10px!important;
+        margin-bottom: 10px;
+        max-width:300px!important;
+
+    }
+
+    .my-photo-2
+    {
+        margin-left:0px!important;
+    }
+
+    .photo
+    {
+        width:340px;
+    }
+
+    .song
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    .song h6
+    {
+        font-size:17px;
+        margin-left:15px;
+    }
+
+    audio
+    {
+        width:360px;
+    }
+
+    .euro-song
+    {
+        max-width: 350px;
+        max-height: 280px;
+        margin-left: 0px!important;
+    }
+
+    .child-video
+    {
+        padding-left: 0px!important;
+    }
+    
+    .child-p
+    {
+        font-size:17px;
+        margin-left:15px;
+    }
 }
 
 @media all and (max-width:375px)
 {
+     .music-p
+    {
+        font-size:17px;
+        margin-left:10px!important;
+        max-width: 100%;
+    }
+
+    .solo-songs
+    {
+        margin-left:5px;
+    }
+
+    .my-photo
+    {
+        padding-left:10px!important;
+        margin-bottom: 10px;
+        max-width:300px!important;
+
+    }
+
+    .my-photo-2
+    {
+        margin-left:0px!important;
+    }
+
+    .photo
+    {
+        width:300px;
+    }
+
+    .song
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    .song h6
+    {
+        font-size:15px;
+        margin-left:15px;
+    }
+
+    audio
+    {
+        width:320px;
+    }
+
+    .euro-song
+    {
+        max-width: 320px;
+        max-height: 250px;
+        margin-left: 0px!important;
+    }
+
+    .child-video
+    {
+        padding-left: 0px!important;
+    }
     
+    .child-p
+    {
+        font-size:15px;
+        margin-left:15px;
+    }
 }
 
 
 @media all and (max-width:320px)
 {
-    .
+    .music-p
+    {
+        font-size:15px;
+        margin-left:10px!important;
+        max-width: 100%;
+    }
+
+    .solo-songs
+    {
+        margin-left:5px;
+    }
+
+    .my-photo
+    {
+        padding-left:5px!important;
+        margin-bottom: 10px;
+
+    }
+
+    .my-photo-2
+    {
+        margin-left:0px!important;
+    }
+
+    .photo
+    {
+        width:260px;
+    }
+
+    .song
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    .song h6
+    {
+        font-size:12px;
+        margin-left:15px;
+    }
+
+    audio
+    {
+        width:270px;
+    }
+
+    .euro-song
+    {
+        max-width: 270px;
+        max-height: 250px;
+        margin-left: 0px!important;
+    }
+
+    .child-video
+    {
+        padding-left: 0px!important;
+    }
+    
+    .child-p
+    {
+        font-size:10px;
+        margin-left:15px;
+    }
 }
 /*---------------------------------------------------------------------uk-tour.html */
 
