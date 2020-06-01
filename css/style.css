@@ -119,6 +119,137 @@ footer
     padding-right: 15px;
 }
 
+@media all and (max-width:1024px)
+{
+    p.text-left
+   {
+       margin-right:10px;
+       margin-top:83px;
+       margin-left:10px!important;
+   }
+}
+
+@media all and (max-width:768px)
+{
+   p.text-left
+   {
+       margin-right:10px;
+       margin-top:83px;
+       margin-left:5px!important;
+   }
+
+}
+
+@media all and (max-width:667px)
+{
+    p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 380px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 140px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:445px!important;
+
+   }
+}
+
+@media all and (max-width:414px)
+{
+   p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 150px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 140px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:205px!important;
+
+   }
+}
+
+@media all and (max-width:375px)
+{
+    p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 100px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 140px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:160px!important;
+
+   }
+}
+
+
+@media all and (max-width:320px)
+{
+   p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 55px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 150px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:110px!important;
+
+   }
+   
+}
+
 /*---------------------------------------------------------------------index.html */
 
 /* Credit for code snipet for perfect bacground 
@@ -604,7 +735,7 @@ p.about
     .about-pic
     {
         max-width: 560px;
-        margin-left: 50px;
+        margin-left: 60px!important;
     }
     .copy
     {
