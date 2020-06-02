@@ -152,7 +152,7 @@ p.lead
 
 .my-button
 {
-    margin-left:650px!important;
+    margin-left:665px!important;
 }
 
 .index-video
@@ -165,7 +165,7 @@ p.lead
 .other-button
 {
     margin-right: 660px;
-    margin-left:210px!important;
+    margin-left:230px!important;
     background-color: darkred!important;
 }
 
@@ -362,7 +362,7 @@ p.lead
     
     a.my-button
     {
-        margin-left:137px!important;
+        margin-left:150px!important;
     }
     
     .index-video
@@ -406,7 +406,7 @@ p.lead
     
     a.my-button
     {
-        margin-left:120px!important;
+        margin-left:135px!important;
     }
     
     .index-video
@@ -452,7 +452,7 @@ p.lead
     
     a.my-button
     {
-        margin-left:90px!important;
+        margin-left:110px!important;
     }
     
     .index-video
@@ -1819,6 +1819,7 @@ footer
        margin-top:5px;
        padding-left:0px!important;
        padding-right:110px!important;
+       margin-bottom:12px!important;
 
    }
    
