@@ -66,191 +66,8 @@ a.dropdown-item
 .navbar-brand:hover {
     color: white;
 }
-/*---------------------------------------------------------------------footer */
-footer
-{
-     background-color:darkred;
-     color: white;
-     font-family: 'Oswald', sans-serif;
-}
 
-.main-footer
-{
-    text-align: center;
-}
-
-.contact-footer
-{
-    text-align:center;
-    margin-top:60px;
-}
-
-.footer-links
-{
-    margin-top:75px; 
-    text-align: right;
-}
-
-.text-left
-{
-    margin-top:80px;
-    margin-left:20px;
-}
-
-.row a
-{
-    color:white!important;
-}
-
-.falow
-{
-    display: inline;
-    margin-right: 10px;
-}
-
-.row a 
-{
-    color: white!important;
-    padding-right: 5px;
-}
-
-.footer-1
-{
-    padding-right: 15px;
-}
-
-@media all and (max-width:1024px)
-{
-    p.text-left
-   {
-       margin-right:10px;
-       margin-top:83px;
-       margin-left:10px!important;
-   }
-}
-
-@media all and (max-width:768px)
-{
-   p.text-left
-   {
-       margin-right:10px;
-       margin-top:83px;
-       margin-left:5px!important;
-   }
-
-}
-
-@media all and (max-width:667px)
-{
-    p.text-left
-   {
-       margin-top:10px;
-   }
-
-   p.contact-footer
-   {
-       margin-top:5px;
-       margin-right: 380px;
-   }
-
-   strong.contact1
-   {
-       margin-right: 140px;
-   }
-
-   .footer-links
-   {
-       margin-top:5px;
-       padding-left:0px!important;
-       padding-right:445px!important;
-
-   }
-}
-
-@media all and (max-width:414px)
-{
-   p.text-left
-   {
-       margin-top:10px;
-   }
-
-   p.contact-footer
-   {
-       margin-top:5px;
-       margin-right: 150px;
-   }
-
-   strong.contact1
-   {
-       margin-right: 140px;
-   }
-
-   .footer-links
-   {
-       margin-top:5px;
-       padding-left:0px!important;
-       padding-right:205px!important;
-
-   }
-}
-
-@media all and (max-width:375px)
-{
-    p.text-left
-   {
-       margin-top:10px;
-   }
-
-   p.contact-footer
-   {
-       margin-top:5px;
-       margin-right: 100px;
-   }
-
-   strong.contact1
-   {
-       margin-right: 140px;
-   }
-
-   .footer-links
-   {
-       margin-top:5px;
-       padding-left:0px!important;
-       padding-right:160px!important;
-
-   }
-}
-
-
-@media all and (max-width:320px)
-{
-   p.text-left
-   {
-       margin-top:10px;
-   }
-
-   p.contact-footer
-   {
-       margin-top:5px;
-       margin-right: 55px;
-   }
-
-   strong.contact1
-   {
-       margin-right: 150px;
-   }
-
-   .footer-links
-   {
-       margin-top:5px;
-       padding-left:0px!important;
-       padding-right:110px!important;
-
-   }
-   
-}
-
-/*---------------------------------------------------------------------index.html */
+/*-----------------------------------------------------------------index.html */
 
 /* Credit for code snipet for perfect bacground 
 https://css-tricks.com/perfect-full-page-background-image/ */
@@ -658,7 +475,7 @@ p.lead
 
 }
 
-/*---------------------------------------------------------------------about-me.html */
+/*--------------------------------------------------------------about-me.html */
 
 .about-row
 {
@@ -882,7 +699,7 @@ p.about
     }
 }
 
-/*---------------------------------------------------------------------book-me.html */
+/*---------------------------------------------------------------book-me.html */
 
 .booking-form 
 {
@@ -1058,7 +875,7 @@ font-size: 30px!important;
     }
     
 }
-/*---------------------------------------------------------------------my-music.html */
+/*--------------------------------------------------------------my-music.html */
 
 .song1
 {
@@ -1569,7 +1386,7 @@ font-size: 30px!important;
         margin-left:15px;
     }
 }
-/*---------------------------------------------------------------------uk-tour.html */
+/*---------------------------------------------------------------uk-tour.html */
 
 /* Credit for code to Code Institute learning video
 about how to make portfolio*/
@@ -1630,10 +1447,16 @@ about how to make portfolio*/
     margin-left:3rem;
 }
 
+.history-items
+{
+    margin-left:50px;
+}
+
 .tour-button
 {
     background-color: darkred!important;
     margin-left:610px!important;
+    margin-top:25px;
 }
 
 .h5-heading
@@ -1651,40 +1474,352 @@ about how to make portfolio*/
 
 @media all and (max-width:1024px)
 {
-  
+  .tour-video
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    .history-items
+    {
+        margin-left:40px;
+    }
+
+    .tour-button
+    {
+        margin-left:400px!important;
+        margin-top:25px;
+    }
 }
 
 @media all and (max-width:768px)
 {
-   
+   .tour-video
+    {
+        margin-left:80px;
+        padding-left:0px!important;
+    }
+
+    .tour-button
+    {
+        margin-left:280px!important;
+        margin-top:25px;
+    }
 }
 
 @media all and (max-width:667px)
 {
+    .tour-video
+    {
+        margin-left:80px;
+        padding-left:0px!important;
+    }
 
-}
+    iframe.video
+    {
+        width:450px;
+        height:400px;
+        
+    }
 
+    iframe.secound-video
+    {
+        padding-top:0;
+        margin-top:20px
+    }
 
-@media all and (max-width:575px)
-{
-   
+    .tour-p
+    {
+        font-size:15px;
+    }
+
+    .tour-button
+    {
+        margin-left:240px!important;
+        margin-top:20px;
+    }
 }
 
 
 @media all and (max-width:414px)
 {
-   
+   .tour-video
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    iframe.video
+    {
+        width:360px;
+        height:270px;
+        
+    }
+
+    iframe.secound-video
+    {
+        padding-top:0;
+        margin-top:10px
+    }
+
+    .tour-p
+    {
+        font-size:15px;
+    }
+
+    .tour-button
+    {
+        margin-left:100px!important;
+    }
 }
 
 @media all and (max-width:375px)
 {
-    
+    .tour-video
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    iframe.video
+    {
+        width:320px;
+        height:250px;
+        
+    }
+
+    iframe.secound-video
+    {
+        padding-top:0;
+        margin-top:10px
+    }
+
+    .tour-p
+    {
+        font-size:15px;
+    }
+
+    .tour-button
+    {
+        margin-left:80px!important;
+    }
 }
 
 
 @media all and (max-width:320px)
 {
-    .
+    .tour-video
+    {
+        margin-left:0px;
+        padding-left:0px!important;
+    }
+
+    iframe.video
+    {
+        width:260px;
+        height:220px;
+        
+    }
+
+    iframe.secound-video
+    {
+        padding-top:0;
+        margin-top:10px
+    }
+
+    .tour-p
+    {
+        font-size:15px;
+    }
+
+    .tour-button
+    {
+        margin-left:55px!important;
+    }
+
 }
 
-/*finish*/
+
+/*---------------------------------------------------------------------footer */
+footer
+{
+     background-color:darkred;
+     color: white;
+     font-family: 'Oswald', sans-serif;
+}
+
+.main-footer
+{
+    text-align: center;
+}
+
+.contact-footer
+{
+    text-align:center;
+    margin-top:60px;
+}
+
+.footer-links
+{
+    margin-top:75px; 
+    text-align: right;
+}
+
+.text-left
+{
+    margin-top:80px;
+    margin-left:20px;
+}
+
+.row a
+{
+    color:white!important;
+}
+
+.falow
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+.row a 
+{
+    color: white!important;
+    padding-right: 5px;
+}
+
+.footer-1
+{
+    padding-right: 15px;
+}
+
+@media all and (max-width:1024px)
+{
+    p.text-left
+   {
+       margin-right:10px;
+       margin-top:83px;
+       margin-left:10px!important;
+   }
+}
+
+@media all and (max-width:768px)
+{
+   p.text-left
+   {
+       margin-right:10px;
+       margin-top:83px;
+       margin-left:5px!important;
+   }
+
+}
+
+@media all and (max-width:667px)
+{
+    p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 380px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 140px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:445px!important;
+
+   }
+}
+
+@media all and (max-width:414px)
+{
+   p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 150px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 140px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:205px!important;
+
+   }
+}
+
+@media all and (max-width:375px)
+{
+    p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 100px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 140px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:160px!important;
+
+   }
+}
+
+
+@media all and (max-width:320px)
+{
+   p.text-left
+   {
+       margin-top:10px;
+   }
+
+   p.contact-footer
+   {
+       margin-top:5px;
+       margin-right: 55px;
+   }
+
+   strong.contact1
+   {
+       margin-right: 150px;
+   }
+
+   .footer-links
+   {
+       margin-top:5px;
+       padding-left:0px!important;
+       padding-right:110px!important;
+
+   }
+   
+}
