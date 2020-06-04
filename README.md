@@ -31,7 +31,7 @@ https://getbootstrap.com/
 
 I have tested site by navigating thru all buttons its works all the time, also tested to navigate with back button and foward also everething works thru all pages. Easy navigate page to page and back to landing page all works. Also contact form when you press submit also works all the time and after pressing module comes up with confirmation. Site works on laptop, tablet and mobile phone.
 ## Deployment
-Deployed my web site on github with git commit comand and git push. Deployed to master branch and adress for site is at https://atvars.github.io/1st-milstone-project-Dzintars-Cicia/
+Deployed my web site on github with git commit comand and git push. Deployed to master branch and adress for site is at https://atvars.github.io/Dzintars-Cica/.
 
 ## Credits
 ### Content
