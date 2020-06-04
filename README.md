@@ -1,39 +1,29 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Dzintars Cica
+This project is about Latvian singer - Dzintars Cica, and his life in music. The Value we provide with this project is people who dont know Dzintars, can read about him, find out how he started singing and why he started singing, they can read about his childhood and how he progresed as singer, they can listen to his songs, watch his videos. If people like Dzintars they can contact him and book him for some gigs. And with this website they will know when and where is his next concert.
 
-Welcome atvars,
+The Value for Dzintars is with this website he will gain more popularity, more listeners so more potential buyers of his music. Also he will get some more private gigs and invites.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
+The website is very intuitiv and not hard, its very easy to navigate. On first page in navigation bar you can find all options to read about him, to listen his music, to find out about his upcoming concerts,buy tickets or to book him for your self. Even if you dont use nav bar at that time if you scrol down the page you find all thouse options again in page by clicking on buttons.
 
-## Gitpod Reminders
+If people want to buy tickets and they land on his page there is date with next concert, so they can press button read more and see all dates and cities of concert and buy tickets by clicking on button buy tickets or they can do it from navigation bar right side button buy tickets.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+If they want just to listen his music on website insted of youtube.com Also very easy on navigation bar is button music and then drop down listen my music. Or if they scrol down in landing page there wil be video with button music.
 
-`python3 -m http.server`
+If they want to book Dzintars for some upcoming gig they also visit this website and in navigation bar is button bookings or if they scroll down the page will be button vith video bookings. when they land on bookings page they can fill out vrey easy form and just press submit.
 
-A blue button should appear to click: *Make Public*,
+added my mockups in project in folder Project planing. Added some screan shots of my initial mockups, but with the project progresing it changed a bit.
 
-Another blue button should appear to click: *Open Browser*.
+## Features
+The features I used in project is people can see pictures and videos of Dzintars so they actualy see him not only hear him I think that a big pluss with visualisation. Next feature is his songs what they can listen on his website so they dont need to search it elswere on internet. And by listening his songs they can idintefy is this something what they actualy like. Ofcourse another feature is booking form so they can actualy contact him and book him for there upcoming ivents.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The Feature for future I whould add is that quotes section that they can leave coments about his concerts and another quotes section for private ivents.
 
-A blue button should appear to click: *Make Public*,
+## Technologies Used
+I used special template for github which is created by CodeInstitute which provide extensions and tools for writing much faster and easier https://github.com/Code-Institute-Org/gitpod-full-template
 
-Another blue button should appear to click: *Open Browser*.
+Buiding this website I used HTML5 and CSS3 with gitpod https://www.gitpod.io/
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+I used framework Bootstrap for Grid leyout and other things such as navbar and form it just makes life easier and saves time. Also Bootstrap provides option to implement some javascript options without realy understanding them. Such as Drop downs, collapse buttons and modals wich I used in my website.
+https://getbootstrap.com/
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
