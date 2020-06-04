@@ -27,3 +27,20 @@ Buiding this website I used HTML5 and CSS3 with gitpod https://www.gitpod.io/
 I used framework Bootstrap for Grid leyout and other things such as navbar and form it just makes life easier and saves time. Also Bootstrap provides option to implement some javascript options without realy understanding them. Such as Drop downs, collapse buttons and modals wich I used in my website.
 https://getbootstrap.com/
 
+## Testing
+
+I have tested site by navigating thru all buttons its works all the time, also tested to navigate with back button and foward also everething works thru all pages. Easy navigate page to page and back to landing page all works. Also contact form when you press submit also works all the time and after pressing module comes up with confirmation. Site works on laptop, tablet and mobile phone.
+## Deployment
+Deployed my web site on github with git commit comand and git push. Deployed to master branch and adress for site is at https://atvars.github.io/1st-milstone-project-Dzintars-Cicia/
+
+## Credits
+### Content
+All content is created and designed by me. Except code snipet for css for perfect background is taken from https://css-tricks.com/perfect-full-page-background-image/
+
+And used code for timeline which is in UK Tour page from learning video from CodeInstitute which was used for portfolio for work history section. Just changed content and colors.
+
+### Media
+All photos is given me by site owner Dzintars Cica
+and videos is taken from youtube.com with Dzintars Cica premision.
+
+
